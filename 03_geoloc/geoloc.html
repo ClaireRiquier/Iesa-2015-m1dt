@@ -6,9 +6,9 @@
     <script>
     function getUserLocation(position) {
         var geoInfos = "Position déterminée : <br />";
-        geoInfos += "Latitude : "+postion.coords.latitude + "<br />"
-        geoInfos += "Longitude : "+postion.coords.longitude + "<br />"
-        geoInfos += "Altitude : "+postion.coords.latitude + "<br />"
+        geoInfos += "Latitude : "+ position.coords.latitude + "<br />";
+        geoInfos += "Longitude : "+ position.coords.longitude + "<br />";
+        geoInfos += "Altitude : "+ position.coords.latitude + "<br />";
         document.getElementById("geolocation").innerHTML=geoInfos;
     };
     if (navigator.geolocation) {
