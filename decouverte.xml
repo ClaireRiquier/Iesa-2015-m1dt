@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <news>
+        <title>Le XML</title>
+        <description>Découverte d'un langage révolutionnaire : le xml !</description>
+        <link></link>
+        <items>
+            <item>
+                <title></title>
+                <description></description>
+                <link></link>
+            </item>
+        </items>
+    </news>
+    <news>
+        <title>Le Prototyping</title>
+        <description>C'est beau, c'est chouette</description>
+        <link></link>
+    </news>
