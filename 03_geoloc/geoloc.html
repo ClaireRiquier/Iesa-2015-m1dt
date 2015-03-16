@@ -17,6 +17,22 @@
     } else {
         alert("votre navigateur ne prend pas en compte la géoloc");
     };
+
+     function monitoring(position) {
+        var geoInfos = "Position déterminée : <br />";
+        geoInfos += "Latitude : "+ position.coords.latitude + "<br />";
+        geoInfos += "Longitude : "+ position.coords.longitude + "<br />";
+        geoInfos += "Altitude : "+ position.coords.latitude + "<br />";
+        geoInfos += "Vitesse : "+ position.coords.speed + "<br />";
+        document.getElementById("geolocation").innerHTML=geoInfos;
+    };
+
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(monitoring);
+        alert('L\' API de geolocalisation en html5 est disponible');
+    } else {
+        alert("votre navigateur ne prend pas en compte la géoloc");
+    };
     </script>
 </head>
 <body>
