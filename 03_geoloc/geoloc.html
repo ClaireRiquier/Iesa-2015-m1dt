@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <title>Géolocalisation</title>
     <script>
+    function getUserLocation(position) {
+        alert(position.coords.latitude);
+    };
     if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(getUserLocation);
         alert('L\' API de geolocalisation en html5 est disponible');
     } else {
         alert("votre navigateur ne prend pas en compte la géoloc");
@@ -12,6 +16,5 @@
     </script>
 </head>
 <body>
-
 </body>
 </html>
