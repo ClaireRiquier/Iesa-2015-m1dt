@@ -5,7 +5,7 @@
     <title>Géolocalisation</title>
     <script>
     function getUserLocation(position) {
-        alert(position.coords.latitude);
+        alert('Lat:' + position.coords.latitude + 'long:' + position.coords.longitude +'alt:' + position.coords.altitude);
     };
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(getUserLocation);
