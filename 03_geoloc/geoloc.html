@@ -28,14 +28,35 @@
         document.getElementById("geolocation").innerHTML = geoInfos;
     };
 
-    function fail(erreur) {
-        document.getElementById("geolocation").innerHTML = " Erreur: " + erreur.message;
+    // function fail(erreur) {
+    //     document.getElementById("geolocation").innerHTML = " Erreur: " + erreur.message;
 
-        console.log(erreur);
+    //     console.log(erreur);
+    // };
+
+
+
+    //Fonction de callback en cas d'erreur
+    function erreurPosition (error) {
+        var info = "Erreur lors de la géolocalisation"
+        switch(error.code) {
+        case error.TIMEOUT:
+            info += "Timeout !";
+        break;
+        case error.PERMISSION_DENIED:
+            info += "Vous n'avez pas la permission !";
+        break;
+        case error.PERMISSION_UNAVAILABLE:
+            info += "La position n'a pas été trouvée !";
+        break;
+        case error.UNKNOW_ERROR:
+            info += "Erreur inconnue !";
+        break;
+        }
+        console.log(info);
     };
-
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(monitoring,fail);
+        navigator.geolocation.getCurrentPosition(monitoring,erreurPosition);
         // navigator.geolocation.watchPosition(monitoring);
         //alert('L\' API de geolocalisation en html5 est disponible');
     } else {
