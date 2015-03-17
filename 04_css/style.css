@@ -65,7 +65,8 @@
     }
 
     body {
-        background: url('dahu_wiki.jpg') 20% 80% repeat;
+        background-image:url('dahu_wiki.png') repeat 80% 20%;
+        background: rgba(247, 235, 185, .5);
     }
 
 
