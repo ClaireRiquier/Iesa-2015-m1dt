@@ -25,7 +25,8 @@
     #firstHeading {
         font-family: viga, arial, serif;
         font-weight: bold;
-        font-style: 2em;
+        font-size: 2em;
+        font-style: italic;
         text-align: center;
     }
     /*---classe--*/
@@ -41,8 +42,8 @@
     /*---décendant--*/
     div p b {
         font-family: viga, arial, serif;
-        font-weight: bold;
-        font-style: 2em;
+        font-weight: normal;
+        font-size: 20px;
     }
     /*---grouping--*/
     h1,h2 {
