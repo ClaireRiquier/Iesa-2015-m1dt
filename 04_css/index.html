@@ -4,20 +4,31 @@
 <meta charset="UTF-8" />
 <title> CSS sélecteurs - Dahu — Wikipédia</title>
 <style type="text/css">
-
+    /*---élément--*/
     p {
         background-color: green;
         padding: 2%;
     }
-
+    /*---id--*/
     #firstHeading {
         font-family: viga, arial, serif;
         font-weight: bold;
         font-style: 2em;
     }
-
+/   *---classe--*/
     .bandeau-titre {
         color: red;
+    }
+    /*---spécifique--*/
+    div #catlinks {
+        text-decoration: none;
+    }
+
+    /*---décendant--*/
+    div p b {
+        font-family: viga, arial, serif;
+        font-weight: bold;
+        font-style: 2em;
     }
 
 </style>
