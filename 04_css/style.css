@@ -21,6 +21,7 @@
         padding: 2%;
         text-align: center;
         text-transform: uppercase;
+        margin: 2%;
 
     }
     /*---id--*/
@@ -58,6 +59,9 @@
         font-style: 2em;
         text-align: center;
         letter-spacing: 2em;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color:black;
     }
 
 

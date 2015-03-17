@@ -11,6 +11,9 @@ http://daringfireball.net/projects/markdown/
 # html 5 / JS
 * Google Map : mettre les dimensions dans la div pour afficher la map
 
+#css
+*padding : 10px 20p 15px   =   10 top  20 right  15 bottom  20 left
+
 
 
 
