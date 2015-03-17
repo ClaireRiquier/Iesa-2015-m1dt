@@ -11,6 +11,7 @@
         geoInfos += "Altitude : "+ position.coords.latitude + "<br />";
         document.getElementById("geolocation").innerHTML=geoInfos;
     };
+
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(getUserLocation);
         alert('L\' API de geolocalisation en html5 est disponible');
@@ -18,18 +19,25 @@
         alert("votre navigateur ne prend pas en compte la géoloc");
     };
 
-     function monitoring(position) {
+    function monitoring(position) {
         var geoInfos = "Position déterminée : <br />";
         geoInfos += "Latitude : "+ position.coords.latitude + "<br />";
         geoInfos += "Longitude : "+ position.coords.longitude + "<br />";
         geoInfos += "Altitude : "+ position.coords.latitude + "<br />";
         geoInfos += "Vitesse : "+ position.coords.speed + "<br />";
-        document.getElementById("geolocation").innerHTML=geoInfos;
+        document.getElementById("geolocation").innerHTML = geoInfos;
+    };
+
+    function fail(erreur) {
+        document.getElementById("geolocation").innerHTML = " Erreur: " + erreur.message;
+
+        console.log(erreur);
     };
 
     if (navigator.geolocation) {
-        navigator.geolocation.watchPosition(monitoring);
-        alert('L\' API de geolocalisation en html5 est disponible');
+        navigator.geolocation.getCurrentPosition(monitoring,fail);
+        // navigator.geolocation.watchPosition(monitoring);
+        //alert('L\' API de geolocalisation en html5 est disponible');
     } else {
         alert("votre navigateur ne prend pas en compte la géoloc");
     };
