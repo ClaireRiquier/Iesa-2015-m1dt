@@ -21,8 +21,21 @@
         geoInfos += "Vitesse : "+ position.coords.speed + "<br />";
         document.getElementById("geolocation").innerHTML = geoInfos;
 
-        map = new google.maps.Map(document.getElementById("map"), optionsGmaps);
+        var centerpos = new google.maps.LatLng(48.579400,7.7519);
 
+        var optionsGmaps = {
+            center: centerpos,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            zoom: 15
+        };
+
+        var map = new google.maps.Map(document.getElementById("map"), optionsGmaps);
+        marker = new google.maps.Marker({
+            position: centerpos,
+            map : map,
+            title: "Vous êtes ici"
+            //icon: "fleche png"
+        });
     };
 
     // function fail(erreur) {
@@ -59,25 +72,24 @@
         alert("votre navigateur ne prend pas en compte la géoloc");
     };
 
-    //Position Chatelet Paris
-    var centerpos = new google.maps.LatLng(48.579400,7.7519);
+    //Position Châtelet Paris
+    //var centerpos = new google.maps.LatLng(48.579400,7.7519);
 
     //Options relatives à la carte
-    var optionsGmaps = {
-        center:centerpos,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        zoom: 15
-    };
+    // var optionsGmaps = {
+    //     center:centerpos,
+    //     mapTypeId: google.maps.MapTypeId.ROADMAP,
+    //     zoom: 15
+    // };
 
     //Initialisation de la carte par l'élément portant l'Id map
-    var map;
+    //var map;
 
     </script>
-
 
 </head>
 <body>
     <div id="geolocation">Zone présentant les informations de géolocalisation</div>
-    <div id="map" style="width: 500px; height= 400px">Carte</div>
+    <div id="map" style="width: 500px; height: 400px;">Carte</div>
 </body>
 </html>
