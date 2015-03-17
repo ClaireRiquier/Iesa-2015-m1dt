@@ -13,15 +13,20 @@
 }
 
     /*---élément--*/
+    a:hover {
+        color: yellow;
+    }
     p {
         background-color: green;
         padding: 2%;
+        text-align: center;
     }
     /*---id--*/
     #firstHeading {
         font-family: viga, arial, serif;
         font-weight: bold;
         font-style: 2em;
+        text-align: center;
     }
     /*---classe--*/
     .bandeau-titre {
@@ -42,6 +47,10 @@
     /*---grouping--*/
     h1,h2 {
         background-color: blue;
+        font-family: viga, arial, serif;
+        font-weight: bold;
+        font-style: 2em;
+        text-align: center;
     }
 
 
