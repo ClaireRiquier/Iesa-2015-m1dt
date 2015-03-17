@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Géolocalisation</title>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=set_to_true_or_false"></script>
     <script>
     function getUserLocation(position) {
         var geoInfos = "Position déterminée : <br />";
@@ -12,13 +13,6 @@
         document.getElementById("geolocation").innerHTML=geoInfos;
     };
 
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(getUserLocation);
-        alert('L\' API de geolocalisation en html5 est disponible');
-    } else {
-        alert("votre navigateur ne prend pas en compte la géoloc");
-    };
-
     function monitoring(position) {
         var geoInfos = "Position déterminée : <br />";
         geoInfos += "Latitude : "+ position.coords.latitude + "<br />";
@@ -26,6 +20,9 @@
         geoInfos += "Altitude : "+ position.coords.latitude + "<br />";
         geoInfos += "Vitesse : "+ position.coords.speed + "<br />";
         document.getElementById("geolocation").innerHTML = geoInfos;
+
+        map = new google.maps.Map(document.getElementById("map"), optionsGmaps);
+
     };
 
     // function fail(erreur) {
@@ -35,36 +32,52 @@
     // };
 
 
-
     //Fonction de callback en cas d'erreur
-    function erreurPosition (error) {
-        var info = "Erreur lors de la géolocalisation"
-        switch(error.code) {
-        case error.TIMEOUT:
-            info += "Timeout !";
-        break;
-        case error.PERMISSION_DENIED:
-            info += "Vous n'avez pas la permission !";
-        break;
-        case error.PERMISSION_UNAVAILABLE:
-            info += "La position n'a pas été trouvée !";
-        break;
-        case error.UNKNOW_ERROR:
-            info += "Erreur inconnue !";
-        break;
-        }
-        console.log(info);
-    };
+    ////function erreurPosition (error) {
+        //var info = "Erreur lors de la géolocalisation"
+        //switch(error.code) {
+        //case error.TIMEOUT:
+            //info += "Timeout !";
+        //break;
+        //case error.PERMISSION_DENIED:
+            //info += "Vous n'avez pas la permission !";
+        //break;
+        //case error.PERMISSION_UNAVAILABLE:
+            //info += "La position n'a pas été trouvée !";
+        //break;
+        //case error.UNKNOW_ERROR:
+            //info += "Erreur inconnue !";
+        //break;
+        //}
+        //console.log(info);
+    //};
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(monitoring,erreurPosition);
+        navigator.geolocation.getCurrentPosition(monitoring);
         // navigator.geolocation.watchPosition(monitoring);
         //alert('L\' API de geolocalisation en html5 est disponible');
     } else {
         alert("votre navigateur ne prend pas en compte la géoloc");
     };
+
+    //Position Chatelet Paris
+    var centerpos = new google.maps.LatLng(48.579400,7.7519);
+
+    //Options relatives à la carte
+    var optionsGmaps = {
+        center:centerpos,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        zoom: 15
+    };
+
+    //Initialisation de la carte par l'élément portant l'Id map
+    var map;
+
     </script>
+
+
 </head>
 <body>
     <div id="geolocation">Zone présentant les informations de géolocalisation</div>
+    <div id="map" style="width: 500px; height= 400px">Carte</div>
 </body>
 </html>
