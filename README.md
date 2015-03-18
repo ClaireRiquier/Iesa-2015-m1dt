@@ -8,6 +8,8 @@ http://daringfireball.net/projects/markdown/
     * git commit -m "un commentaire"
     * git push
     * git checkout . !warning! Reset le code après le dernier commit
+* cmd t dans le terminal pour ouvrir une nouvelle fenêtre
+    * clôner son repertoire git hub ds un nouveau avec l'url https://github.com/ClaireRiquier/Iesa-2015-m1dt.git (ds le repertory sur git hub)
 
 # html 5 / JS
 * Google Map : mettre les dimensions dans la div pour afficher la map
