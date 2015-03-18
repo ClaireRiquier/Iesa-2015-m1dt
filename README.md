@@ -38,6 +38,8 @@ http://daringfireball.net/projects/markdown/
     console.warn("Alert,word");
     console.error("Alert,word");
     * nommage d'une fonction sous forme de verbe ex : function soitPoli
+    * paramètres d'une fonction : ce qu'il y a dans les parantèses => function myFunction ()
+        * si on définit 2 fonctions différentes, elles peuvent avoir les mêmes paramètres.
 
 
 

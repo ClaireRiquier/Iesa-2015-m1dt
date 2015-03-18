@@ -31,8 +31,8 @@ Faire un appelle calculate 10+20-30*40/50
          return a * b;
     }
 
-    function device (a,b) {
-         return a / b;
+    function device (a,b,c) {
+         return a / b / c;
     }
 
 
@@ -43,10 +43,10 @@ Faire un appelle calculate 10+20-30*40/50
     //alert (resultMinus);
 
     var resultMultiplie = multiplie(add(10,20),minus(20,30));
-    alert (resultMultiplie);
+    //alert (resultMultiplie);
 
-
-
+    var resultDevice = device(add(10,20),minus(20,30),add(10,20),minus(20,30));
+    alert (resultDevice);
 
     </script>
 
