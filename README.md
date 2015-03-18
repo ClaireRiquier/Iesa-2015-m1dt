@@ -37,6 +37,7 @@ http://daringfireball.net/projects/markdown/
     console.info("Alert,word");
     console.warn("Alert,word");
     console.error("Alert,word");
+    * nommage d'une fonction sous forme de verbe ex : function soitPoli
 
 
 
