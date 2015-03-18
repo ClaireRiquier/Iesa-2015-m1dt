@@ -21,7 +21,9 @@ http://daringfireball.net/projects/markdown/
     * d = 33 > on affecte 33 à d !ne veut pas dire d égale 33! => opérateur d'affectation
     si on veut dire d égale 33, on écrit d == 33 => opérateur d'opération
         * pour éviter tout problème : 33 == d  (d'abord la valeur et ensuite la variable -> bon à tous les coups !)
-
+    * || > opérateur de logique ou > alt shift l
+    * !Attention! Une condition est toujours entre parantèses > if ()
+    si on a un opérateur entre 2 conditions, on englobe le tout dans des () > if ((a==b) || (b==d)) {}  ou alors if (a==b || b==d) {}
 
 
 
