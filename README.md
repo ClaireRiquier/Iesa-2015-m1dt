@@ -27,6 +27,14 @@ http://daringfireball.net/projects/markdown/
     * Opérateur ternaire vs if/else
                     if     then     sinon    ;
         a =        ()   ?   ()    :   () ;
+    * pour aficher dans la console (de firebug par ex):
+        * var a = 100;
+          var b = 200;
+    console.log("Alert,word");
+    console.debug("Alert,word");
+    console.info("Alert,word");
+    console.warn("Alert,word");
+    console.error("Alert,word");
 
 
 
