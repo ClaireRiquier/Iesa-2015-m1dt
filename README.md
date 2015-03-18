@@ -24,6 +24,9 @@ http://daringfireball.net/projects/markdown/
     * || > opérateur de logique ou > alt shift l
     * !Attention! Une condition est toujours entre parantèses > if ()
     si on a un opérateur entre 2 conditions, on englobe le tout dans des () > if ((a==b) || (b==d)) {}  ou alors if (a==b || b==d) {}
+    * Opérateur ternaire vs if/else
+                    if     then     sinon    ;
+        a =        ()   ?   ()    :   () ;
 
 
 
