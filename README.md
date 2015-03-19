@@ -41,6 +41,9 @@ http://daringfireball.net/projects/markdown/
     * paramètres d'une fonction : ce qu'il y a dans les parantèses => function myFunction ()
         * si on définit 2 fonctions différentes, elles peuvent avoir les mêmes paramètres.
 
+#PHP
+    * la balise fermante ?> n'est pas obligatoire.
+
 
 
 
