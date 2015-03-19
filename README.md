@@ -50,6 +50,8 @@ http://daringfireball.net/projects/markdown/
         * scalaires : boolean - integer - float - string
         * composés : array - objet
         * spéciaux : ressource - null
+    * var_dump($a) : fonction qui donne le type + valeur de la variable
+    * gettype ($a) : fonction qui donne le type de la variable
 
 
 
