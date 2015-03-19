@@ -13,12 +13,25 @@ $article2 = array(
     "guid" => "http://support.apple.com/en-us/HT204065"
     );;
 
-var_dump($article);;
-var_dump($article2);;
+//var_dump($article);;
+//var_dump($article2);;
 
-function affiche($news){
-    return "<ul> <li>" . $news["title"] . "</li> <li>" . $news["description"] . "</li><li>" . $news["link"] . "</li><li>" . $news["guid"] . "</li> </ul>";;
+function builHtmlTableFor($news){
+    $html = "<table> <tr>";
+        foreach ($news as $key => $value) {
+            $html .= "<td>" . $value . "</td>";
+         };
+    $html .= "</tr> </table>";
+    return $html;
+    };
+
+function displayRow($news){
+    echo builHtmlTableFor($news);
 }
 
-echo affiche($article);;
+displayRow($article);
+
+
+
+
 ?>
