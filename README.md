@@ -46,6 +46,10 @@ http://daringfireball.net/projects/markdown/
     * global : mot clé sur la portée des variables.
     * variable dynamique : variable de variable > $$a
     * convention de nommage des constantes : en maj
+    * 3 caté de type en php
+        * scalaires : boolean - integer - float - string
+        * composés : array - objet
+        * spéciaux : ressource - null
 
 
 
