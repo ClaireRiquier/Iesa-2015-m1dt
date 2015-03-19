@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>Apple - Support - Most Recent  - iPhone</title>
+<link>https://www.apple.com/support/</link>
+<description>Apple - Support - Most Recent - Apple Inc.</description>
+<language>en-us</language>
+<copyright>Copyright 2015 Apple Inc.</copyright>
+<ttl>1440</ttl>
+<pubDate>Thu, 19 Mar 2015 06:27:57 GMT</pubDate>
+<category>Apple</category>
+<generator>In house</generator>
+<docs>https://rss.support.apple.com/iphone</docs>
+
+
+                    <item>
+                    <title><![CDATA[Apple security updates]]></title>
+                    <description><![CDATA[This document outlines security updates for Apple products.]]></description>
+                    <link>http://support.apple.com/en-us/HT1222</link>
+                    <content:encoded><![CDATA[This document outlines security updates for Apple products.]]></content:encoded>
+                    <pubDate>Tue, 17 Mar 2015 20:25:07 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT1222</guid>
+                    </item>
+
+                    <item>
+                    <title><![CDATA[Use AirPlay to wirelessly stream content from your iPhone, iPad, or iPod touch]]></title>
+                    <description><![CDATA[With AirPlay, you can stream music, photos, and videos to your Apple TV, or stream music to your AirPort Express or AirPlay-enabled speakers. And with AirPlay Mirroring, you can display your iOS screen on your Apple TV.]]></description>
+                    <link>http://support.apple.com/en-us/HT204289</link>
+                    <content:encoded><![CDATA[With AirPlay, you can stream music, photos, and videos to your Apple TV, or stream music to your AirPort Express or AirPlay-enabled speakers. And with AirPlay Mirroring, you can display your iOS screen on your Apple TV.]]></content:encoded>
+                    <pubDate>Tue, 17 Mar 2015 16:16:10 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT204289</guid>
+                    </item>
+
+                    <item>
+                    <title><![CDATA[About the security content of iOS 8.2]]></title>
+                    <description><![CDATA[This document describes the security content of iOS 8.2.
+]]></description>
+                    <link>http://support.apple.com/en-us/HT204423</link>
+                    <content:encoded><![CDATA[This document describes the security content of iOS 8.2.
+]]></content:encoded>
+                    <pubDate>Mon, 09 Mar 2015 18:39:38 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT204423</guid>
+                    </item>
+
+                    <item>
+                    <title><![CDATA[If you can't send or receive messages on your iPhone, iPad, or iPod touch]]></title>
+                    <description><![CDATA[You might see an exclamation mark next to a message you try to send, or you might not receive messages that someone sends to you. These steps can help. ]]></description>
+                    <link>http://support.apple.com/en-us/HT204065</link>
+                    <content:encoded><![CDATA[You might see an exclamation mark next to a message you try to send, or you might not receive messages that someone sends to you. These steps can help. ]]></content:encoded>
+                    <pubDate>Tue, 24 Feb 2015 19:38:58 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT204065</guid>
+                    </item>
+
+                    <item>
+                    <title><![CDATA[Find the serial number of your Apple hardware product]]></title>
+                    <description><![CDATA[Learn how to find the serial number of an iPhone, iPad, iPod, Mac, or other Apple product.]]></description>
+                    <link>http://support.apple.com/en-us/HT204308</link>
+                    <content:encoded><![CDATA[Learn how to find the serial number of an iPhone, iPad, iPod, Mac, or other Apple product.]]></content:encoded>
+                    <pubDate>Thu, 19 Feb 2015 19:53:19 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT204308</guid>
+                    </item>
+
+                    <item>
+                    <title><![CDATA[If Safari displays a blank page or unexpectedly quits on your iPhone, iPad, or iPod touch]]></title>
+                    <description><![CDATA[You might not be able to load a website or webpage, or maybe Safari quits unexpectedly while you're using it. These steps can help.]]></description>
+                    <link>http://support.apple.com/en-us/HT204229</link>
+                    <content:encoded><![CDATA[You might not be able to load a website or webpage, or maybe Safari quits unexpectedly while you're using it. These steps can help.]]></content:encoded>
+                    <pubDate>Wed, 18 Feb 2015 18:13:45 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT204229</guid>
+                    </item>
+
+                    <item>
+                    <title><![CDATA[If you can't make or receive calls on your iPhone]]></title>
+                    <description><![CDATA[You might not be able to make or receive calls on your iPhone if you have certain settings turned on, if your software isn't up to date, or if there's a problem with your network.]]></description>
+                    <link>http://support.apple.com/en-us/HT204027</link>
+                    <content:encoded><![CDATA[You might not be able to make or receive calls on your iPhone if you have certain settings turned on, if your software isn't up to date, or if there's a problem with your network.]]></content:encoded>
+                    <pubDate>Thu, 05 Feb 2015 20:53:22 GMT</pubDate>
+                    <guid>http://support.apple.com/en-us/HT204027</guid>
+                    </item>
+
+</channel>
+</rss>
