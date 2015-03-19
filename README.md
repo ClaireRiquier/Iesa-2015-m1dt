@@ -43,7 +43,7 @@ http://daringfireball.net/projects/markdown/
 
 #PHP
     * la balise fermante ?> n'est pas obligatoire.
-    * global : mot clé sur la portée des variables.
+    * global : mot clé sur la portée des variables. => ne pas l'utiliser
     * variable dynamique : variable de variable > $$a
     * convention de nommage des constantes : en maj
     * 3 caté de type en php
@@ -52,6 +52,7 @@ http://daringfireball.net/projects/markdown/
         * spéciaux : ressource - null
     * var_dump($a) : fonction qui donne le type + valeur de la variable
     * gettype ($a) : fonction qui donne le type de la variable
+    * 1ere ligne d'une fonction = la signature
 
 
 

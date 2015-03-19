@@ -1,0 +1,54 @@
+06_functions-calculator
+
+4 fct :
+1 add
+2 minus
+3 multiplie
+4 device
+
+Chacune 2 parametres
+
+Faire un appelle calculate 10+20-30*40/50
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    function add (a,b) {
+         return a + b;
+    }
+
+    function minus (a,b) {
+         return a - b;
+    }
+
+    function multiplie (a,b) {
+         return a * b;
+    }
+
+    function device (a,b,c) {
+         return a / b / c;
+    }
+
+
+    var resultAdd = add(10,20);
+    //alert (resultAdd);
+
+    var resultMinus = minus(20,30);
+    //alert (resultMinus);
+
+    var resultMultiplie = multiplie(add(10,20),minus(20,30));
+    //alert (resultMultiplie);
+
+    var resultDevice = device(add(10,20),minus(20,30),add(10,20),minus(20,30));
+    alert (resultDevice);
+
+    </script>
+
+</body>
+</html>
