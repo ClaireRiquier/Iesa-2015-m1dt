@@ -44,6 +44,7 @@ http://daringfireball.net/projects/markdown/
 #PHP
     * la balise fermante ?> n'est pas obligatoire.
     * global : mot clé sur la portée des variables.
+    * variable dynamique : variable de variable > $$a
 
 
 

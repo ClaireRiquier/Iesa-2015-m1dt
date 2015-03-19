@@ -1,11 +1,10 @@
 <?php
-$a = 1;
-function test()
-{
-    global $a;
-    echo $a;
-}
+$a = "bonjour";
+$$a = "monde";
 
-test();
+echo $a . '<br/>';
+echo $$a . '<br/>';
+
+echo $bonjour;
 
 ?>
