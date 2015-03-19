@@ -53,6 +53,8 @@ http://daringfireball.net/projects/markdown/
     * var_dump($a) : fonction qui donne le type + valeur de la variable
     * gettype ($a) : fonction qui donne le type de la variable
     * 1ere ligne d'une fonction = la signature
+    * une fonction = une seule fonctionnalité !
+    * !warning! Ne pas oublier d'appeler la fonction après l'avoir déterminée
 
 
 
