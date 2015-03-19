@@ -1,6 +1,11 @@
 <?php
-    echo "Hello world !";
-    phpinfo();
+$a = 1;
+function test()
+{
+    global $a;
+    echo $a;
+}
 
-    echo "J'ai oublié la balise fermante";
+test();
 
+?>
