@@ -1,9 +1,10 @@
 <?php
 
-$a = 12;
+$monTableau = array();
 
-var_dump($a);
+var_dump($monTableau);
+echo "<br/>";
 
-
-
+$course = array("fruit", "orange","banane","pomme");
+    var_dump($course);
 ?>
