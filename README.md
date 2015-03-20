@@ -79,6 +79,7 @@ http://daringfireball.net/projects/markdown/
 
 # Objet
     * l'objet prend une maj => function Player nb : ici, Player est la class. On parle ensuite d'instance player : var player
+    * 33 instanceoff Player : mot clé pour savoir si la donnée est une instance de la class
 
 
 
