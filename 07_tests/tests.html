@@ -12,10 +12,15 @@
     <div id='qunit-fixture'></div>
 
     <script type="text/javascript">
-QUnit.test("A test",
+QUnit.test("Test equal",
     function(assert) {
         assert.equal(1, 2, "1 expected");
-    })
+    });
+
+QUnit.test("Test not equal",
+    function(assert) {
+        assert.notEqual(1, 2, "1 expected");
+    });
 
     </script>
 
