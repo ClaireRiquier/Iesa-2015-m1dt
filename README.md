@@ -56,6 +56,19 @@ http://daringfireball.net/projects/markdown/
     * une fonction = une seule fonctionnalité !
     * !warning! Ne pas oublier d'appeler la fonction après l'avoir déterminée
 
+#Types
+    * Nombres
+    * String
+        * "aaa" < "bbb" = true  différent de "aaa" < "Bbbbb" = false => la casse des lettres a un poid.
+    * Array
+        * On peut mettre tt type de contenu dans un meme tableau
+    * Dates
+        * var today = new Date();
+        * var today = new Date(2000,0,1); => année, mois, jour
+        * var today = new Date(2000,0,1,0,0,0); => année, mois, jour, heure, minute, seconde
+        * !warning! Pas d'utilisation d'un retour d'un .setHours => different de .getHours (où on demande un retour)
+
+
 
 
 
