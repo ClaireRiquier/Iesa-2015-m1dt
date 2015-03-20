@@ -77,6 +77,10 @@ http://daringfireball.net/projects/markdown/
     * test driven developpement
     * selenium : appli web qui fait des tests sur ta page web (comme un test utilisateur).
 
+# Objet
+    * l'objet prend une maj => function Player nb : ici, Player est la class. On parle ensuite d'instance player : var player
+
+
 
 
 
