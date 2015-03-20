@@ -71,6 +71,12 @@ http://daringfireball.net/projects/markdown/
 
 #Test unitaire
     * => s'assurer du fonctionnement du code et qu' il va durer dans le temps.
+    * <meta http-equiv="Refresh" content="2"> => refresh la page tte les 2 secondes.
+        * jenkins : appli web qui permet de faire les tests unitaires avec refresh sur un serveur à part qui récup les données injectées sur le serveur. Utile quand programmation à plusieurs (intégration continue).
+    * continius delivery
+    * test driven developpement
+    * selenium : appli web qui fait des tests sur ta page web (comme un test utilisateur).
+
 
 
 
