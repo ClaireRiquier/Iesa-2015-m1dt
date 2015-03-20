@@ -67,7 +67,10 @@ http://daringfireball.net/projects/markdown/
         * var today = new Date(2000,0,1); => année, mois, jour
         * var today = new Date(2000,0,1,0,0,0); => année, mois, jour, heure, minute, seconde
         * !warning! Pas d'utilisation d'un retour d'un .setHours => different de .getHours (où on demande un retour)
+        * timestamp = getTime => te renvoie la date/heure du moment précis
 
+#Test unitaire
+    * => s'assurer du fonctionnement du code et qu' il va durer dans le temps.
 
 
 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tests unitaire</title>
+    <link rel="stylesheet" type="text/css" href="../07_tests/qunit.css">
+    <script type="text/javascript" src="../07_tests/qunit.js"></script>
+</head>
+<body>
+
+    <div id="qunit"></div>
+    <div id='qunit-fixture'></div>
+
+    <script type="text/javascript">
+QUnit.test("A test",
+    function(assert) {
+        assert.equal(1, 2, "1 expected");
+    })
+
+    </script>
+
+</body>
+</html>
